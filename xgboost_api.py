@@ -1,6 +1,5 @@
 import pandas as pd 
 from fastapi import FastAPI
-from prediction import houseprediction
 import joblib
 
 
