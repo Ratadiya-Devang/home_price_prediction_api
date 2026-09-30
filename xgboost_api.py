@@ -26,4 +26,4 @@ def predict(size:float,bedrooms:int,age:float,distance:float):
 
     predict = int(pre[0])
 
-    return {"msg":predict}
+    return {"price":predict}
