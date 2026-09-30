@@ -24,4 +24,6 @@ def predict(size:float,bedrooms:int,age:float,distance:float):
 
     pre = model.predict(new_data)
 
-    return houseprediction(pre)
+    predict = int(pre[0])
+
+    return {"msg":predict}
